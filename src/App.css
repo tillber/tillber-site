@@ -27,7 +27,6 @@ html, body{
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  padding-top: 10vmin;
 }
 
 .App-link {
@@ -58,8 +57,41 @@ div.martin-timeline{
   padding-top: 2vh;
 }
 
+div.martin-navbar{
+  background-color: #f7f7f7;
+  color: #000000;
+  width: 100%;
+  font-size: calc(20px + 4vmin);
+  padding: 1vh 0vh;
+}
+
+div.martin-navbar div.column:first-child{
+  padding-left: 3vh;
+  letter-spacing: 1vh;
+  color: #cccccc;
+}
+
+div.martin-navbar div.column:last-child{
+  text-align: right;
+  padding-right: 3vh;
+}
+
+div.martin-navbar div.column:not(:first-child):not(:last-child){
+  text-align: center;
+}
+
 img.portrait{
+  margin-top: 4vmin;
   width: 12rem;
   height: 12rem;
   border-radius: 50%;
+}
+a{
+  text-decoration: none !important;
+  color: inherit !important;
+}
+a:hover{
+  text-decoration: none !important;
+  color: inherit !important;
+  cursor: pointer !important;
 }

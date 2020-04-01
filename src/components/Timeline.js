@@ -31,7 +31,6 @@ function Timeline(){
         </header>
         <div className="timeline-item">
           <div className="timeline-marker">
-            <i className="fa fa-flag"></i>
           </div>
           <div className="timeline-content">
             <p className="heading">March 2020 - ONGOING</p>
